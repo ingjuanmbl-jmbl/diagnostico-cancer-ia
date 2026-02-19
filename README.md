@@ -5,12 +5,6 @@ Este repositorio contiene un sistema de clasificación binaria basado en **Deep 
 ## 📊 Rendimiento del Modelo
 Tras una fase de optimización estocástica y control de sobreajuste, el modelo alcanzó métricas de grado clínico en el conjunto de prueba (114 pacientes):
 
-| Métrica | Valor |
-| **Accuracy Global** | **98.25%**|
-| **Precisión** | **100.00%** |
-| **Recall (Sensibilidad)** | **95.24%** |
-| **F1-Score** | **0.9756** |
-
 El modelo ha alcanzado métricas de rendimiento sobresalientes, consolidándose como una herramienta de diagnóstico de alta fiabilidad:
 
 * Accuracy Global: 98,25%. El sistema clasifica correctamente a casi la totalidad de la muestra, fallando únicamente en 2 de cada 114 casos.
@@ -38,7 +32,7 @@ Las gráficas de entrenamiento muestran lo que en Deep Learning se llama un "Goo
 ---
 
 ## 📂 Estructura del Repositorio
-* `data/`: Archivos CSV con los datos de diagnóstico.
+* `data/`: Archivos CSV con los datos de diagnóstico tanto los datos crudos como los resultantes despues de la limpieza de datos
 * `models/`: Contiene el modelo entrenado (`.keras`) y el escalador estandarizado (`.pkl`).
 * `src/`: Scripts modulares (limpieza, modelado y utilidades).
 * `main.py`: El punto de entrada para ejecutar todo el entrenamiento.
@@ -57,4 +51,5 @@ Para ejecutar el pipeline de carga, optimización y guardado del modelo: python 
 
 
 ### ✒️ Conclusión
+
 Este proyecto demuestra cómo una red neuronal, cuando se le aplican técnicas adecuadas de regularización (Dropout) y escalado, puede alcanzar niveles de precisión superiores al 99%, sirviendo como una herramienta de apoyo robusta para el diagnóstico oncológico.
