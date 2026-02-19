@@ -57,3 +57,6 @@ Para ejecutar el pipeline de carga, optimización y guardado del modelo: python 
 
 Este proyecto demuestra cómo una red neuronal, cuando se le aplican técnicas adecuadas de regularización (Dropout) y escalado, puede alcanzar niveles de precisión superiores al 99%, sirviendo como una herramienta de apoyo robusta para el diagnóstico oncológico.
 
+---
+## 📜 Licencia y Derechos de Autor
+Este proyecto es de propiedad intelectual privada. Se permite compartir el enlace al repositorio, pero el uso, copia o distribución del código requiere permiso expreso del autor.
