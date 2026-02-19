@@ -12,6 +12,8 @@ El modelo ha alcanzado métricas de rendimiento sobresalientes, consolidándose 
 * Precisión: 100%: cero falsos positivos. Si el modelo identifica un tumor como maligno, la certeza es absoluta, eliminando el riesgo de tratamientos agresivos innecesarios.
 
 * Recall (Sensibilidad): 95.24%. Se ha mejorado significativamente la detección de casos positivos. El modelo identificó correctamente a 40 de 42 pacientes con tumores malignos.
+* 
+![Matriz de Confusión](img/confusion_matrix.png)
 
 ## Estabilidad y Generalización
 Las gráficas de entrenamiento muestran lo que en Deep Learning se llama un "Good Fit":
@@ -20,6 +22,7 @@ Las gráficas de entrenamiento muestran lo que en Deep Learning se llama un "Goo
 
 * Prevención de Overfitting: La cercanía final entre las métricas de entrenamiento y prueba confirma que el modelo no ha memorizado los datos, sino que ha aprendido a generalizar los patrones biológicos de los tumores.
 
+![Curvas de Entrenamiento](img/curvas_entrenamiento.png)
 ---
 
 ## Stack Tecnológico
@@ -53,3 +56,4 @@ Para ejecutar el pipeline de carga, optimización y guardado del modelo: python 
 ### ✒️ Conclusión
 
 Este proyecto demuestra cómo una red neuronal, cuando se le aplican técnicas adecuadas de regularización (Dropout) y escalado, puede alcanzar niveles de precisión superiores al 99%, sirviendo como una herramienta de apoyo robusta para el diagnóstico oncológico.
+
